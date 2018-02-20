@@ -15,7 +15,7 @@ Button.prototype = {
     }
 }
 
-var btn1 = new Button('Hello');
+var btn1 = new Button('Hello!');
 btn1.create();
 
 $('button').css('padding-left', '40px').css('padding-right', '40px').css('padding-top', '20px').css('padding-bottom', '20px').css('background-color', 'white').css('font-weight', 'bold');
